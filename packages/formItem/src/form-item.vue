@@ -6,6 +6,7 @@
     <div>
       <slot></slot>
       <p v-if="errMessage">{{ errMessage }}</p>
+      <p v-if="errMessage">{{ errMessage }}</p>
     </div>
   </div>
 </template>
